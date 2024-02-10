@@ -1,0 +1,73 @@
+body{
+    background-color: gray;
+    color: whitesmoke;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+header{
+    display: block;
+    justify-content: center;
+    overflow: hidden;
+}
+img{
+    min-height: auto;
+    max-height: 200px;
+    height: 500px;
+    min-width: 100px;
+    max-width: max-content;
+    width: 500px;
+    box-shadow: 10px 8px 8px;
+    border-radius: 8px;
+}
+nav{
+    border: 5px solid black;
+    border-radius: 8px;
+    margin: auto 10px;
+}
+nav li{
+    float: left;
+    overflow: hidden;
+}
+nav ul{
+    overflow: hidden;
+}
+nav a{
+    font-size: xx-large;
+    margin: 9px;
+    padding: 20px;
+    color: white;
+}
+li a:hover,
+li a:focus{
+    background: #333;
+    color: whitesmoke;
+    cursor: pointer;
+}
+article{
+    font-family: 'Times New Roman', Times, serif;
+    border: 10px outset black;
+    margin: 50px;
+    padding: 5px 5px 5px 5px;
+
+    animation-name: animation1;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    position: relative;
+}
+
+@keyframes animation1{
+    from{
+        left: 100px;
+        opacity: 0;
+
+    }
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+    
+}
+html{
+    scroll-behavior: smooth;
+}
