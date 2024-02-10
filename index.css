@@ -37,6 +37,7 @@ nav a{
     margin: 9px;
     padding: 20px;
     color: white;
+    position: fixed;
 }
 li a:hover,
 li a:focus{
